@@ -1,3 +1,5 @@
+package io.drandarov.playground.jvm.kotlin.basics
+
 fun main(args: Array<String>) {
     val arrayOf: Array<Any> = arrayOf("test", 2.5f, 2.7, 6)
     println(arrayOf.map(Any::toString))
